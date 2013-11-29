@@ -5,7 +5,7 @@ Laravel Facade for Facebook PHP SDK
 
 Add `aamant\facebook` to `composeer.json`
 
-	"aamant\facebook-connect": "dev-master"
+	"aamant/facebook-connect": "dev-master"
 
 Add Provider to `app/config/app.php`
 
