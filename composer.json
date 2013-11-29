@@ -1,0 +1,20 @@
+{
+    "name": "aamant/facebook-connect",
+    "description": "",
+    "authors": [
+        {
+            "name": "Arnaud Amant",
+            "email": "arnaud.amant@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "4.0.x"
+    },
+    "autoload": {
+        "psr-0": {
+            "Aamant\\FacebookConnect": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
