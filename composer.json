@@ -1,6 +1,8 @@
 {
     "name": "aamant/facebook-connect",
-    "description": "",
+    "description": "Laravel Facade for Facebook PHP SDK",
+    "keywords": ["laravel", "laravel4", "facebook"],
+    "license": "MIT",
     "authors": [
         {
             "name": "Arnaud Amant",
