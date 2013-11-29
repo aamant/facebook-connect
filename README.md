@@ -27,10 +27,10 @@ Run `php artisan config:publish aamant/facebook-connect` and modify the config f
 
 1. Get Login Url with your credentials and scope.
 
-	Route::get('facebook', function(){
+	`Route::get('facebook', function(){
 		if (0 === Fconnect::getUser()){
 			return Redirect::to(Fconnect::getLoginUrl());
 		} else {
 			return Fconnect::api('/me');
 		}
-	});
+	});`
